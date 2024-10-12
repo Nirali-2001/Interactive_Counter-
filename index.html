@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Counter</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="counter-container">
+    <h1 class="counter-value"  id="counter"> Counter:0</h1>
+    <div class="btn-group">
+      <button onclick="increment()">Increment by +1</button>
+      <button onclick="decrement()">Decrement by -1</button>
+      <button onclick="increaseBy(2)">2+</button>
+      <button onclick="increaseBy(3)">3+</button>
+    </div>
+    <div class="btn-group" style="margin-top: 10px; display: flex; justify-content: center;">
+        <button onclick="decrement()">-2</button>
+        <button onclick="decrement()">-3</button>
+        <button onclick="decrement()">-4</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
